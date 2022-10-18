@@ -1,0 +1,233 @@
+html{
+    font-size: 62.5%;
+}
+
+
+.logo img{
+    width: 170.4px;
+    height: 131.2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.boldsietes{
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.navegacion{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+        right:20px
+}
+
+
+.navegacion li{
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: underline;
+}
+
+
+.principal__imagen{
+
+    width: 1388px;
+    height: 640px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
+.principal__imagen img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.principal__dates{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+        right:20px
+}
+
+
+.principal__dates li{
+    display: block;
+    padding: 25px 10px;
+    text-decoration: underline;
+}
+
+
+.principal__g{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.principal__gallery img{
+    width: 375px;
+    height: 375px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: height 1s;
+    transition: width 1s;
+
+}
+
+
+.principal__gallery img:hover{
+    width: 378px;
+    height: 378px;
+}
+
+
+
+.principal__parrafo {
+
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.principal__parrafo2 {
+
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.principal__s{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.principal__shop img{
+     width: 375px;
+    height: 375px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: height 1s;
+    transition: width 1s;
+
+}
+
+
+.principal__shop img:hover{
+    width: 378px;
+    height: 378px;
+}
+
+
+
+.principal__contacto {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    resize: vertical;    
+}
+
+
+.principal__contacto form input,textarea,select{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 25%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    text-align:left;
+    
+}
+
+
+.principal__contacto form label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    width: 25%;
+    padding: 3px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    text-align:left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
