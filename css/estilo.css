@@ -2,10 +2,17 @@ html{
     font-size: 62.5%;
 }
 
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 .logo img{
-    width: 170.4px;
-    height: 131.2px;
+    width: 170px;
+    height: 130px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,9 +43,17 @@ html{
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-        right:20px
 }
+
+
+.principal__h{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 
 .navegacion li{
@@ -52,9 +67,6 @@ html{
 
     width: 1388px;
     height: 640px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 25px;
     margin-bottom: 25px;
 
@@ -98,11 +110,11 @@ html{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 
-.principal__gallery img{
+.principal__g img{
     width: 375px;
     height: 375px;
     margin-top: 25px;
@@ -113,8 +125,17 @@ html{
 
 }
 
+.principal__g p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
 
-.principal__gallery img:hover{
+}
+
+
+.principal__g img:hover{
     width: 378px;
     height: 378px;
 }
@@ -156,11 +177,16 @@ html{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 
-.principal__shop img{
+.div__centrado{
+    text-align: center;
+}
+
+
+.principal__s img{
      width: 375px;
     height: 375px;
     margin-top: 25px;
@@ -172,7 +198,7 @@ html{
 }
 
 
-.principal__shop img:hover{
+.principal__s img:hover{
     width: 378px;
     height: 378px;
 }
@@ -194,7 +220,8 @@ html{
     margin-left: auto;
     margin-right: auto;
     font-size: 15px;
-    width: 25%; 
+    width: 25%;
+    min-width: 250px; 
     padding: 12px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
@@ -213,6 +240,7 @@ html{
     margin-right: auto;
     font-size: 17px;
     width: 25%;
+    min-width: 250px;
     padding: 3px; 
     margin-top: 6px; 
     margin-bottom: 16px; 
