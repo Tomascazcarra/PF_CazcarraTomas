@@ -2,13 +2,6 @@ html{
     font-size: 62.5%;
 }
 
-.logo{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 
 .logo img{
     width: 170px;
@@ -16,6 +9,7 @@ html{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 
@@ -31,7 +25,7 @@ html{
 }
 
 
-.navegacion{
+.nav{
     color: rgb(0, 0, 0);
     list-style-type: none;
     font-style: normal;
@@ -54,22 +48,27 @@ html{
 }
 
 
-
-
-.navegacion li{
+.nav li{
     display: inline-block;
     padding: 10px 10px;
     text-decoration: underline;
 }
 
 
+.principal__d{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 .principal__imagen{
-
-    width: 1388px;
+    width: 1400px;
     height: 640px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 
@@ -125,6 +124,7 @@ html{
 
 }
 
+
 .principal__g p{
     font-style: normal;
     font-weight: bold;
@@ -138,38 +138,6 @@ html{
 .principal__g img:hover{
     width: 378px;
     height: 378px;
-}
-
-
-
-.principal__parrafo {
-
-    color: rgb(0, 0, 0);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-.principal__parrafo2 {
-
-    color: rgb(0, 0, 0);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
@@ -187,7 +155,7 @@ html{
 
 
 .principal__s img{
-     width: 375px;
+    width: 375px;
     height: 375px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -204,14 +172,8 @@ html{
 }
 
 
-
 .principal__contacto {
-    border-radius: 5px;
     background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    display: block;
-    resize: vertical;    
 }
 
 
@@ -249,8 +211,6 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
-
 
 
 a{
