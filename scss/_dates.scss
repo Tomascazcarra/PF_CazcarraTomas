@@ -1,0 +1,27 @@
+.principal__d{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.principal__dates{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+        right:20px;
+        li{
+            display: block;
+            padding: 25px 10px;
+            text-decoration: underline;
+        }
+}

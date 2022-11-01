@@ -1,0 +1,151 @@
+.logo img {
+  width: 170px;
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+.nav {
+  color: black;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto; }
+  .nav li {
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: underline; }
+
+.boldsietes {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.principal__h {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.principal__imagen {
+  width: 575px;
+  height: 575px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center; }
+  .principal__imagen img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.principal__d {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.principal__dates {
+  color: black;
+  list-style-type: none;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 20px; }
+  .principal__dates li {
+    display: block;
+    padding: 25px 10px;
+    text-decoration: underline; }
+
+.principal__g {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .principal__g img {
+    width: 375px;
+    height: 375px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .principal__g p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center; }
+
+.principal__s {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .principal__s img {
+    width: 375px;
+    height: 375px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.div__centrado {
+  text-align: center; }
+  .div__centrado button {
+    background-color: #1f1f1f;
+    color: aliceblue; }
+
+.principal__contacto {
+  background-color: #ffffff; }
+  .principal__contacto form input, .principal__contacto textarea, .principal__contacto select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 25%;
+    min-width: 250px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: left; }
+  .principal__contacto form label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    width: 25%;
+    min-width: 250px;
+    padding: 3px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
