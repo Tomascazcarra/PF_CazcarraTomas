@@ -1,8 +1,8 @@
 .principal__s{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: $display;
+    flex-direction: $flexd;
+    flex-wrap: $flexw;
+    justify-content: $justifyc;
     img{
         width: 375px;
         height: 375px;
