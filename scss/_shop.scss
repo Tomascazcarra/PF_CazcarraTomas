@@ -3,6 +3,11 @@
     flex-direction: $flexd;
     flex-wrap: $flexw;
     justify-content: $justifyc;
+
+}
+
+.div__centrado{
+    text-align: center;
     img{
         width: 375px;
         height: 375px;
@@ -11,11 +16,6 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
-}
-
-.div__centrado{
-    text-align: center;
     button{
         background-color: rgb(31, 31, 31);
         color: aliceblue;

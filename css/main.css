@@ -31,7 +31,8 @@
   font-family: sans-serif;
   text-align: center;
   margin-left: 50px;
-  margin-right: 50px; }
+  margin-right: 50px;
+  padding-top: 20px; }
 
 a {
   color: black;
@@ -105,16 +106,16 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
-  .principal__s img {
+
+.div__centrado {
+  text-align: center; }
+  .div__centrado img {
     width: 375px;
     height: 375px;
     margin-top: 25px;
     margin-bottom: 25px;
     padding-left: 15px;
     padding-right: 15px; }
-
-.div__centrado {
-  text-align: center; }
   .div__centrado button {
     background-color: #1f1f1f;
     color: aliceblue; }
